@@ -10,7 +10,7 @@ function clicked(){
 		if (pass.value == corpass){
 			
 			window.alert("You are now logged in to the system as " + user.value);
-			
+			window.open("http://www.vibrato.com.au/");
 		}else{
 			
 			window.alert("Oh no! looks like you don't belong here." + user.value + "wrong username and wrong password");
