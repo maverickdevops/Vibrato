@@ -9,17 +9,16 @@ function clicked(){
 		
 		if (pass.value == corpass){
 			
-			window.alert("You are now logged in to the system Idiot as " + user.value);
-			window.open("http://www.vibrato.com.au/");
+			window.alert("You are now logged in to the system as " + user.value);
 			
 		}else{
 			
-			window.alert("Get lost from here you idiot, you don't belong here " + user.value + "wrong username and wrong password");
+			window.alert("Oh no! looks like you don't belong here." + user.value + "wrong username and wrong password");
 		
 		}
 	
 	}else{
 		
-		window.alert("Get lost from here you idiot, you don't belong here " + user.value);
+		window.alert("Oh no! looks like you don't belong here." + user.value);
 	}
 }
